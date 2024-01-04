@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model_lr = joblib.load('model_lr.joblib')
+model = joblib.load('model.joblib')
 
 st.title('Student Dropout Prediction :student:')
 
